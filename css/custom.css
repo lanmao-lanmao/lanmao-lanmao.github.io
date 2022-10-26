@@ -241,7 +241,7 @@
   }
   
   /* 鼠标图标 */
-  body {
+  /* body {
     cursor: url("/img/x1.cur"), auto;
   }
   a,
@@ -250,7 +250,7 @@
   [type="submit"]:not(:disabled),
   button:not(:disabled) {
     cursor: url("/img/x2.cur"), auto !important;
-  }
+  } */
   /* md网站下划线 */
   #article-container a:hover {
     text-decoration: none !important;
@@ -389,3 +389,21 @@
 #page-header {
     background: transparent !important;
   }
+
+/* 鼠标样式 */
+body {
+    cursor: url(https://bu.dusays.com/2022/05/17/6283c365d20dd.png), auto;
+}
+
+.hide-block>.hide-button.open,
+.hide-inline>.hide-button.open {
+    display: block
+}
+
+a,
+button,
+img {
+    cursor: url(https://bu.dusays.com/2022/05/17/6283c376afcfc.png), auto
+}
+
+
